@@ -155,9 +155,10 @@ En este ejercicio se realizan tres reservas, tres compras y una de ella se anula
 
 ![Captura de pantalla 2025-05-05 160122](https://github.com/user-attachments/assets/26cd4e1e-b613-4966-918c-f4fda974c94e)
 
+
 Luego de varios movimientos se puede pedir una estadistica general en el estado actual, que incluye la sumatoria o resta de los ingresos según los totales a pagar. 
 
-![Captura de pantalla 2025-05-05 160209](https://github.com/user-attachments/assets/146e97bc-7677-4a3e-97da-212f7cc7624e)
+![Captura de pantalla 2025-05-05 161435](https://github.com/user-attachments/assets/821f1fb0-7de4-463f-be38-aead619b8412)
 
 
 Se valida descuentos a aplicar según edad se determina el tipo de Descuento, si es estudiante, tercera edad, sin descuento o
@@ -166,21 +167,34 @@ Si bien por la edad identifica aplicar descuento estudiante, en el resumen de la
 ![Captura de pantalla 2025-05-05 154109](https://github.com/user-attachments/assets/42d22fe6-1b1d-4dea-a0e4-9112feee0565)
 
 
-
-
-
-
-Se solicita el nombre y se genera el resumen de la reserva. 
-
-IMPORTANTE: en este caso se plantea el programa con la reserva y la compra de manera separada, para efectuar la compra debe salir si o si al menú principal y elegir dicha opción. Las instrucciones se le indican al usuario:
-
-
 Con la opción 13 se entrega un mensaje de salida y se cierra el programa:
 ![Captura de pantalla 2025-05-05 150811](https://github.com/user-attachments/assets/8da14056-011a-45b8-b11c-f731172497ae)
 
 
+OPTIMIZACIONES Y PRUEBAS
+
+- Como parte de las optimizaciones se decidió utilizar la estructura de datos Array para los Asientos y de esta manera poder desplegar el mapa del teatro como matriz y se tomó la decisión del resto de utilizar listas.
+- Así mismo se presenta un código con menos comentarios que los anteriores, ya que según lo indicado el exceso de comentarios también va cargando tiempos de ejecución del programa.
+  
+Durante la realización del código se hicieron múltiples pruebas de su ejecución encontrando detalles como estos y mejorandolos: 
+Por ejemplo en este caso, cuando se entregaba la retroalimentación al usuario el programa se quedaba estancado, se identificaron errores y corrigieron: 
+![Captura de pantalla 2025-05-05 152737](https://github.com/user-attachments/assets/545d8b69-c3b0-4ff7-acdf-b54745368a93)
+
+O en este otro caso donde aparecía el valor de "null" y no se entendía por qué .... finalmente comprendí que era por que al inicializar la variable String por defecto viene cargada de null y su primera lectura es esa, para que esto no suceda debe cambiarse a " String codigos = ""; " dejando el String vacío:
+
+![Captura de pantalla 2025-05-05 142642](https://github.com/user-attachments/assets/693ba998-afb6-458d-add8-e58c5f86e4f8)
+
+![Captura de pantalla 2025-05-05 142650](https://github.com/user-attachments/assets/61207285-8355-49af-a009-7188a011391e)
+
+
+
+
+
+
+
+
 ## Observación:
-El programa permitiría la generación de un listado de boletas, ya que existe la lista que almacena toda esa inforamción, las cuales tienen un mayor detalle, y contiene la información de cada venta realizada de manera correlativa, pero no se agregó en esta ocasión. 
+En esta versión se plantea el programa con la reserva y la compra de manera separada, para efectuar la compra debe salir si o si al menú principal y elegir dicha opción. Las instrucciones se le indican al usuario:
 
 
 
