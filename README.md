@@ -41,6 +41,7 @@ Menú interactivo inicial con manjeo de errores según inputs del usuario:
 En esta ocasión se incorporó la funcionalidad de que al terminar de ejecutar un "case" o una opción del menú, el programa hace una pausa indicandole al usuario que presione ENTER para volver al menú y este se despliega nuevamente para elegir la siguiente acción. 
 
 Opción 1: muestra el menu de promociones
+
 ![Captura de pantalla 2025-05-05 144155](https://github.com/user-attachments/assets/49de99d1-b696-405e-92e2-277932851d23)
 
 
@@ -105,7 +106,7 @@ Al finalizar el proceso de reserva:
 - 
 ![Captura de pantalla 2025-05-05 152023](https://github.com/user-attachments/assets/c9f18e98-e686-4c4e-95db-eabef7ec6952)
 
-En la opcion 4 de modificación de entrada, valida la cantidad de entradas que desea devolver para modificar su reserva y retroalimenta mostrando el mapa con la liberación de los asientos y manteniendo la reserva pertinente.
+En la opcion 4 de modificación de reserva, valida la cantidad de asientos que desea devolver para modificar su reserva y retroalimenta mostrando el mapa con la liberación de los asientos y manteniendo la reserva pertinente.
 
 ![Captura de pantalla 2025-05-05 152833](https://github.com/user-attachments/assets/41067f16-87ea-47ad-9e79-c26c8f32a71b)
 
